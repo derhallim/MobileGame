@@ -5,11 +5,10 @@ import Colors from '../Constants/Colors'
 const Header = (props) => {
     return (
        <View style={styles.header}>
-           <Text style={styles.headerTitle}>{props.title}11</Text>
+           <Text style={styles.headerTitle}>{props.title}</Text>
        </View>
     )
 }
-
 
 const styles = StyleSheet.create({
     header: {

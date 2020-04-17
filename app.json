@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "Guess The Number",
     "slug": "digit-guessor",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -9,7 +9,7 @@
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -19,15 +19,15 @@
     },
     "updates": {
       "fallbackToCacheTimeout": 0
-    },
+    }, 
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    }, 
+    
     "android": {
-      "package": "com.technifier.GuessTheDigit"
+      "package": "com.Technifier.GuessTheDigit",
+      "versionCode": 2, 
+      "permissions": ["WAKE_LOCK"]
     }
   }
 }
